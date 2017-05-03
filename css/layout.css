@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* ------------------------------------------
+* 制作人：四野汪洋
+* 文件描述内容：布局样式
+* 涉及区域：会员中心所有页面的布局
+* 最后一次修改时间：2017.4.7
+* 修改内容：增加注释
+ ----------------------------------------------*/
+/*方塊列表*/
+.list-square {
+  display: -webkit-box;
+  position: relative;
+  width: 100%;
+  height: .8rem;
+  overflow: hidden;
+  -webkit-box-pack: justify;
+}
+
+.list-square .element {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+}
+
+.list-square .element .top {
+  -webkit-box-flex: 2;
+}
+
+.list-square .element .bottom {
+  -webkit-box-flex: 1;
+}
+
+.list-rectangle {
+  display: -webkit-box;
+  width: 100%;
+}
+
+.list-rectangle .element {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+
+/*行列表*/
+.list-row {
+  position: relative;
+  display: -webkit-box;
+  line-height: .45rem;
+}
+
+.list-row .element {
+  position: relative;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+
+.list-row .element .left {
+  -webkit-box-flex: 1;
+}
+
+.list-row .element .right {
+  -webkit-box-flex: 1;
+}
+
+.block-normal {
+  margin-right: .05rem;
+  margin-left: .05rem;
+  background-color: #fff;
+  border-radius: .05rem;
+}
+
+.block-large {
+  position: relative;
+  width: 94%;
+  height: 1.7rem;
+  z-index: -1;
+  margin: 0 auto;
+  background-image: url(../images/my/finance_top.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.block-rectangle {
+  position: relative;
+  height: 1.2rem;
+  z-index: -1;
+  margin: 0 auto;
+  background-image: url(../images/my/finance_top.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.tab {
+  display: -webkit-box;
+  height: .3rem;
+  margin-right: .2rem;
+  margin-left: .2rem;
+  border: 1px solid #f76160;
+  border-radius: .05rem;
+  -webkit-box-align: center;
+}
+
+.tab .element {
+  display: block;
+  -webkit-box-flex: 1;
+  width: 33.333%;
+  text-align: center;
+  line-height: .3rem;
+  color: #f76160;
+  border-right: 1px solid #f76160;
+  cursor: pointer;
+}
+
+.tab .element:last-child {
+  border-right: 0;
+}
+
+.tab .check {
+  background-color: #f76160;
+  color: #fff;
+}
+
+.my-main {
+  position: relative;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+}
