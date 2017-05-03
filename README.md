@@ -6,7 +6,6 @@
 # layout（布局样式）
 采用盒模型display:box.
 ## 列表
-****
 ### 方块列表
 ```
 <div class="list-square">
