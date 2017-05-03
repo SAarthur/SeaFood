@@ -5,6 +5,7 @@
 
 **css使用sass编写，采用新语法格式。**
 **文件分成：layout（布局样式）、myBase（基础样式表）、module（各个页面样式）。**
+**实际操作中用了bootstrapValidator表单验证和layer弹窗。**
 
 ## layout（布局样式）
 采用盒模型display:box.
